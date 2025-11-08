@@ -1,5 +1,10 @@
-def print_number(num):
-    num += 1
-    print(num)
-    
-print_number(10)
+def sort_on(items):
+    return items["num"]
+
+vehicles = [
+    {"name": "car", "num": 7},
+    {"name": "plane", "num": 10},
+    {"name": "boat", "num": 2}
+]
+vehicles.sort()
+print(vehicles)
